@@ -6,9 +6,6 @@
 // npm install --save-dev live-server
 const liveServer = require('live-server');
 
-
 liveServer = '라이브 서버';
 
-liveServer.start({
-
-})
+liveServer.start({});

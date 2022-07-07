@@ -1,0 +1,12 @@
+{
+  "name": "learn-ecmascript",
+  "version": "1.0.0",
+  "description": "JavaScript 기본&심화 과정 학습 저장소",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0"
+  }
+}

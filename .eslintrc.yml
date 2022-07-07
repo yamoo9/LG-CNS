@@ -1,15 +1,11 @@
 env:
   browser: true
+  commonjs: true
   es2021: true
   node: true
-globals: {
-  _: 'readonly',
-  $: 'readonly'
-}
 extends: eslint:recommended
 parserOptions:
   ecmaVersion: latest
-  sourceType: module
 rules: {
-  no-prototype-builtins: off
+  no-unused-vars: off
 }
