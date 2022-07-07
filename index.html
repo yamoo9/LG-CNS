@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ECMAScript (JavaScript) 프로그래밍</title>
+  </head>
+  <body>
+
+    <!-- 
+      이 위치의 스크립트 코드가 오류인 이유 
+
+      Uncaught TypeError: 
+      Cannot read properties of null (reading 'textContent')
+
+      "HTML 해석은 JavaScript 코드 해석이 종료될 때까지 대기 상태이기 때문"
+      - 스크립트가 요소 이름이 'h1'인 노드를 찾으려 시도할 때 
+        문서에 h1 요소 노드는 아직 존재하지 않기 때문입니다.
+    -->
+    <script>
+      
+      let h1Element = document.querySelector('h1');
+      console.log('요소노드',  h1Element.textContent);
+    </script>
+
+    <!-- user → client (UA, parsing html) ← → server (html) -->
+    
+    <!-- element node, attribute node, text node -->
+    <!-- html markup -->
+    <h1 lang="en">ECMAScript 2022 = JavaScript</h1>
+
+    
+  </body>
+</html>
