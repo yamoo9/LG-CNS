@@ -28,7 +28,9 @@ const MORNING = '아침',
 // 조건 유형(case): '새벽'
 // '한밤 중이거나, 이른 아침이니 꿈나라에 있다.'
 
-console.log('%c----------------------------------------', 'color: #4415e0');
+let dividerColor = '#c31c56';
+
+console.log('%c----------------------------------------', `color: ${dividerColor}`);
 
 /* switch문 → if문 변환 --------------------------------------------------- */
 
@@ -50,7 +52,7 @@ if (thatTime === MORNING) {
 }
 console.timeEnd('if문');
 
-console.log('%c----------------------------------------', 'color: #4415e0');
+console.log('%c----------------------------------------', `color: ${dividerColor}`);
 
 let thisTime = DAWN;
 
@@ -78,4 +80,4 @@ switch (thisTime) {
 }
 console.timeEnd('switch문');
 
-console.log('%c----------------------------------------', 'color: #4415e0');
+console.log('%c----------------------------------------', `color: ${dividerColor}`);
