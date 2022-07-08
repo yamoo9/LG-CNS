@@ -1,5 +1,9 @@
 @import './normalize.css';
 
+body {
+  margin: 3rem;
+}
+
 .headline {
   font-size: 2rem; /* 상대 단위 root em M */
 }

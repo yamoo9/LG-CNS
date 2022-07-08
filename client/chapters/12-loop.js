@@ -51,7 +51,7 @@ const frontEndDev = [
 // 화살표 함수 식
 // frontEndDev.forEach((item, index) => console.log(item));
 
-for (const item of frontEndDev) {
+for (const item of frontEndDev /* 열거 가능한(iterable) 순환 */) {
   console.log(item);
 }
 
