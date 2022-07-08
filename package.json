@@ -1,0 +1,17 @@
+{
+  "type": "commonjs",
+  "name": "learn-ecmascript",
+  "version": "1.0.0",
+  "description": "JavaScript 기본&심화 과정 학습 저장소",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "client": "",
+    "server": "node server/index.js"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "live-server": "1.2.2",
+    "nodemon": "2.0.19",
+    "prettier": "2.7.1"
+  }
+}
