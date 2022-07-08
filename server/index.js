@@ -5,7 +5,7 @@ const params = {
   port: 3000,
   open: false,
   cors: true,
-  spa: true,
+  // spa: true,
   root: "./client"
 };
 
